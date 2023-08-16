@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>Calculator</title>
+</head>
+<body>
+    <center>
+        <div class="container">
+            <div class="output">
+                <div data-process class="process"></div>
+                <div data-results class="results"></div>
+            </div>
+            <div class="row1">
+                <button class="bigger_btn" data-clear onclick="addBtnShadow(this)" onmouseover="whiteShadow(this)" onmouseout="removeWhiteShadow(this)" onmouseleave="removeBtnShadow(this)">AC</button>
+                <button id="del" data-delete onclick="addBtnShadow(this)" onmouseover="whiteShadow(this)" onmouseout="removeWhiteShadow(this)" onmouseleave="removeBtnShadow(this)">DEL</button>
+                <button data-operations onclick="addBtnShadow(this)" onmouseover="whiteShadow(this)" onmouseout="removeWhiteShadow(this)" onmouseleave="removeBtnShadow(this)">÷</button>
+            </div>
+            <div class="row2">
+                <button data-number onclick="addBtnShadow(this)" onmouseover="whiteShadow(this)" onmouseout="removeWhiteShadow(this)" onmouseleave="removeBtnShadow(this)">7</button>
+                <button data-number onclick="addBtnShadow(this)" onmouseover="whiteShadow(this)" onmouseout="removeWhiteShadow(this)" onmouseleave="removeBtnShadow(this)">8</button>
+                <button data-number onclick="addBtnShadow(this)" onmouseover="whiteShadow(this)" onmouseout="removeWhiteShadow(this)" onmouseleave="removeBtnShadow(this)">9</button>
+                <button data-operations="" onclick="addBtnShadow(this)" onmouseover="whiteShadow(this)" onmouseout="removeWhiteShadow(this)" onmouseleave="removeBtnShadow(this)">x</button>
+            </div>
+            <div class="row3">
+                <button data-number onclick="addBtnShadow(this)" onmouseover="whiteShadow(this)" onmouseout="removeWhiteShadow(this)" onmouseleave="removeBtnShadow(this)">4</button>
+                <button data-number onclick="addBtnShadow(this)" onmouseover="whiteShadow(this)" onmouseout="removeWhiteShadow(this)" onmouseleave="removeBtnShadow(this)">5</button>
+                <button data-number onclick="addBtnShadow(this)" onmouseover="whiteShadow(this)" onmouseout="removeWhiteShadow(this)" onmouseleave="removeBtnShadow(this)">6</button>
+                <button data-operations onclick="addBtnShadow(this)" onmouseover="whiteShadow(this)" onmouseout="removeWhiteShadow(this)" onmouseleave="removeBtnShadow(this)">-</button>
+            </div>
+            <div class="row4">
+                <button data-number onclick="addBtnShadow(this)" onmouseover="whiteShadow(this)" onmouseout="removeWhiteShadow(this)" onmouseleave="removeBtnShadow(this)">1</button>
+                <button data-number onclick="addBtnShadow(this)" onmouseover="whiteShadow(this)" onmouseout="removeWhiteShadow(this)" onmouseleave="removeBtnShadow(this)">2</button>
+                <button data-number onclick="addBtnShadow(this)" onmouseover="whiteShadow(this)" onmouseout="removeWhiteShadow(this)" onmouseleave="removeBtnShadow(this)">3</button>
+                <button data-operations onclick="addBtnShadow(this)" onmouseover="whiteShadow(this)" onmouseout="removeWhiteShadow(this)" onmouseleave="removeBtnShadow(this)">+</button>
+            </div>
+            <div class="bottomRow">
+                <button data-number   onclick="addBtnShadow(this)" onmouseover="whiteShadow(this)" onmouseout="removeWhiteShadow(this)" onmouseleave="removeBtnShadow(this)">0</button>
+                <button data-number onclick="addBtnShadow(this)" onmouseover="whiteShadow(this)" onmouseout="removeWhiteShadow(this)" onmouseleave="removeBtnShadow(this)">.</button>
+                <button data-equal class="bigger_btn" onclick="addBtnShadow(this)" onmouseover="whiteShadow(this)" onmouseout="removeWhiteShadow(this)" onmouseleave="removeBtnShadow(this)">=</button>
+            </div>
+
+        </div>
+
+    </center>
+    <script src="script.js"></script>
+</body>
+</html>
