@@ -141,7 +141,7 @@ button{
         overflow: scroll;
         display: flex;
         flex-direction: row;
-        margin: 0;
+        margin-bottom: 1rem;
         width: 45rem;
         height: 21rem;
         justify-content: space-around;
