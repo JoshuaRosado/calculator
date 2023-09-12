@@ -20,8 +20,7 @@ body{
 .container{
     background-color: rgb(130, 194, 169) ;
     overflow: hidden;
-    margin: 1rem;
-    height: 37rem;
+    height: 38rem;
     width: 23rem;
     border-radius: 15px;
     border-left: 4px solid rgba(238, 237, 237, 0.585);
