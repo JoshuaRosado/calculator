@@ -1,2 +1,2 @@
 #calculator_project
-First updates of the calculator project. (HTML, CSS, JavaScript)
+Front End calculator project. (HTML, CSS, JavaScript)
